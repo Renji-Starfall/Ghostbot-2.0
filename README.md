@@ -1,43 +1,89 @@
-// Fonction pour afficher la mise en garde et le message d'avertissement
-function warningMessage(user) {
-  // Message de bienvenue
-  const message = `
-    🚨 **ALERTE GÉNIE EN HERBE** 🚨
 
-    **T'as bien lu** : Si tu n’es pas **XxGhostxX**, alors ferme immédiatement cette page. C'est **MON PROJET**, et il est **STRICTEMENT INTERDIT** d'y toucher. Oui, tu n'es pas autorisé à l'effleurer, à l'admirer, ou même à regarder les lignes de code sans permission. C'est mon bébé et tu n'as **absolument rien à y faire**. 
+> **Créé par XxGhostxX**
 
-    ⚠️ **Si tu oses toucher à ce bot sans ma permission**, voici ce qui va t’arriver (prépare-toi) :
+Bienvenue dans la documentation officielle de ***GhostBot 2.0***, un bot intelligent, flexible et entièrement personnalisable conçu pour automatiser vos groupes et apporter une touche d'originalité à vos conversations.
 
-    1. **Ton clavier va se transformer en grille-pain**, et tu pourras faire griller des tranches de pain à chaque fois que tu appuieras sur une touche. Bonne chance pour coder après ça. 🍞
-    2. **Tous tes fichiers vont être renommés en "je_suis_un_noob.js"**, histoire que tout le monde sache à quel point tu es un génie du code. 🎮
-    3. **Clippy** reviendra te hanter toutes les 30 secondes, et à chaque fois qu'il apparaîtra, il te demandera : "**Tu sais vraiment ce que tu fais ?**". Spoiler : il se moque de toi à chaque fois. 📎
+---
 
-    💥 **T’as vraiment cru que copier ce projet te rendrait plus intelligent ?** Si c'est le cas, tu es **complètement à côté de la plaque**. Tu n’as même pas l’intelligence de comprendre ce que ce bot fait, alors retourne apprendre JavaScript dans un coin. T’es pas près de rivaliser avec **XxGhostxX**. 😡
+## 🚀 Fonctionnalités Principales
 
-    🤡 **POUR TOUS LES "GÉNIES" DU WEB** 🤡
+1. **Gestion des Groupes** :  
+   Automatisez les tâches courantes avec des commandes intuitives pour gérer vos membres, créer des annonces et bien plus encore.
+   
+2. **Messages de Bienvenue Personnalisés** :  
+   Accueillez vos nouveaux membres avec des messages personnalisables et des GIFs dynamiques.
 
-    Si tu penses qu’en forking ce projet, tu vas devenir **le roi du code**, laisse-moi te dire quelque chose : **tu n’as même pas la capacité de comprendre la moitié du code** qui se cache ici. Apprends d'abord à ne pas faire de bêtises avant de penser que tu vas révolutionner la planète avec ton nouveau projet `!lol`. Va coder un peu avant de venir toucher à ce bijou.
+3. **Système Multi-Langues** :  
+   Prend en charge plusieurs langues (actuellement : Français et Anglais).
 
-    🚨 **ET SI TU FORKES CE PROJET QUAND MÊME ?** 🚨
-    Un **GIF de bienvenue** t’attend… et crois-moi, ce n'est pas du tout un compliment.
+4. **Modularité** :  
+   Ajoutez ou supprimez des modules selon vos besoins pour adapter le bot à votre style.
 
-    ![Message de bienvenue](https://i.imgur.com/hDDJdrC.gif)
+5. **Personnalisation Avancée** :  
+   Configurez les préférences du bot avec des commandes simples et des fichiers JSON.
 
-    (Spoiler : Ce GIF te dit tout ce que tu dois savoir sur ton niveau de compétence).
+6. **Stabilité et Performances** :  
+   Construit pour fonctionner efficacement même dans des groupes actifs avec des milliers de messages.
 
-    **Ce projet est créé par XxGhostxX** | Sérieusement, touche pas, t'es pas assez fort pour ça.
-  `;
-  
-  // Envoi du message d'avertissement à l'utilisateur
-  sendMessageToUser(user, message);
-}
+---
 
-// Exemple de fonction pour envoyer un message (ici, il faudrait l'intégrer à ton système de messages)
-function sendMessageToUser(user, message) {
-  // Code pour envoyer le message via Messenger
-  // Par exemple, utiliser l'API Messenger pour envoyer un message à l'utilisateur
-  console.log(`Message envoyé à ${user}: ${message}`);
-}
+## 📋 Commandes Essentielles
 
-// Appel de la fonction avec un utilisateur fictif
-warningMessage("utilisateur_exemple");
+| Commande          | Description                                |
+|-------------------|--------------------------------------------|
+| `%help`           | Affiche la liste complète des commandes.   |
+| `%welcome`        | Configure les messages de bienvenue.       |
+| `%kick`           | Expulse un membre du groupe.              |
+| `%ban`            | Bannit un utilisateur de manière permanente. |
+
+---
+# GhostBot 2.0 – PAS TOUCHE !
+
+> **Créé par XxGhostxX – Propriété exclusive**
+
+⚠️ **CE PROJET EST PERSONNEL.** Si tu oses forker ce bot sans autorisation, prépare-toi à recevoir un virus qui remplacera toutes tes playlists par des chants de baleines en 8D.
+
+---
+
+## 🛑 POURQUOI TU LIS ÇA ?
+
+Si tu n’es pas **XxGhostxX**, ferme cette page immédiatement. Ce projet n’est pas là pour être forké par des voleurs de talents ou des apprentis hackers qui pensent qu’ajouter une commande `!lol` en fait un "projet open source". Sérieusement, trouve-toi une vie.
+STRICTEMENT INTERDIT** d'y toucher. Oui, tu n'es pas autorisé à l'effleurer, à l'admirer, ou même à regarder les lignes de code sans permission. C'est mon bébé et tu n'as **absolument rien à y faire
+---
+
+## 🚨 POUR LES MALINS QUI VEULENT FORKER
+
+Tu veux vraiment forker ? Voici ce qui t’attend :
+
+1. Ton clavier va se transformer en grille-pain.  
+2. Tous tes codes seront renommés en "je_suis_un_nul.js".  
+3. **Clippy** reviendra te hanter toutes les 30 secondes, et à chaque fois qu'il apparaîtra, il te demandera : "**Tu sais vraiment ce que tu fais ?**". Spoiler : il se moque de toi à chaque fois. 
+---
+
+## ❌ CE QUE TU NE DOIS PAS FAIRE
+
+- **Forker ce projet.**  
+  Sérieusement, c’est mon bébé. Va coder le tien.  
+- **Voler les idées.**  
+  Si tu veux faire quelque chose de similaire, demande gentiment. Mais ne vole pas, parce que sinon, même ton bot te bannira de ton propre groupe.
+
+---
+
+## 🤬 MESSAGE POUR LES "GÉNIES DU WEB"
+
+Si tu penses que copier ce projet te fera devenir le prochain Elon Musk du code, laisse-moi te dire un truc : **tu n’as pas l’intelligence pour comprendre ce bijou.** Va apprendre le JavaScript avant de t’aventurer ici.
+
+---
+
+## 🙅‍♂️ ET POUR FINIR…
+
+Si tu forkes quand même ?  
+**Un GIF de bienvenue t’attend :**
+
+![Message de bienvenue](https://i.imgur.com/hDDJdrC.gif)
+
+(Spoiler : *****ce n’est pas un compliment*****.)
+
+---
+
+© *2024 GhostBot 2.0 | Sérieusement, touche pas*.
