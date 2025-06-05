@@ -1,8 +1,8 @@
 {
   "facebookAccount": {
     "email": "renjistarfall@gmail.com",
-    "password": "",
-    "2FASecret": "Renji@123",
+    "password": "Renji@123",
+    "2FASecret": "",
     "i_user": "",
     "proxy": null,
     "userAgent": "Mozilla/5.0 (Linux; Android 12; M2102J20SG) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Mobile Safari/537.36",
@@ -54,7 +54,7 @@
   },
   "serverUptime": {
     "enable": false,
-    "port": 3001,
+    "port": 3000,
     "socket": {
       "enable": true,
       "channelName": "uptime",
